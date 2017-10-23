@@ -34,6 +34,7 @@ router.get('/', function(req, res, next) {
       console.log('paragraphs: ' + doc.getNumberOfParagraphs());
       console.log('code snippets: ' + doc.getNumberOfCodeSamples());
       console.log('Words: '+ doc.getNumberOfWords());
+      console.log("Steps: " + doc.getNumberOfSteps());
       console.log('=====================');
 
 
