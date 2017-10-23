@@ -1,0 +1,21 @@
+{
+  "name": "documentation-heuristics",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "cheerio": "^1.0.0-rc.2",
+    "cheerio-advanced-selectors": "^1.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.15.5",
+    "html-word-count": "^2.0.0",
+    "markdown-it": "^8.4.0",
+    "morgan": "~1.9.0",
+    "pug": "2.0.0-beta11",
+    "serve-favicon": "~2.4.5"
+  }
+}
